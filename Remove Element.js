@@ -11,9 +11,10 @@ var removeElement = function(nums, val) {
    }
 };
 
+// Call the function and pass `nums` and `val`
 removeElement(nums, val);
 
 
-console.log(k); 
+console.log(k);  // Output: 2
 
 
