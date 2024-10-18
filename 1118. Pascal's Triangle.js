@@ -16,6 +16,4 @@ var generate = function(numRows) {
     }
     return triangle;
 };
-
-// Call the function and log the result
 console.log(generate(numRows));
