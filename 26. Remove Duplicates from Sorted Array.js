@@ -9,7 +9,6 @@ var removeDuplicates = function(nums) {
             nums[i] = nums[j];  
         }
     }
-    
     return i + 1;  
 };
 
