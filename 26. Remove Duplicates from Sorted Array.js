@@ -1,4 +1,3 @@
-
 let nums = [1,1,2]
 var removeDuplicates = function(nums) {
     if (nums.length === 0) return 0;
