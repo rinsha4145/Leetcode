@@ -1,3 +1,4 @@
+let s = "()"
 var isValid = function(s) {
       let stack = [];
     for (let i = 0; i < s.length; i++) {
