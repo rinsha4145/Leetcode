@@ -1,8 +1,5 @@
-let callCount = 5
-var fibGenerator = function*() {
-    let a = 0, b = 1;
-   while (true) {
-       yield a;
-       [a, b] = [b, a + b];
-   }
+fn = (x) => x * 5, args = [2], t = 20
+var cancellable = function(fn, args, t) {
+    const t1 = setTimeout(()=>fn(...args), t);
+    return () => clearTimeout(t1)
 };
