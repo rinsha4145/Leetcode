@@ -1,3 +1,4 @@
+let callCount = 5
 var fibGenerator = function*() {
     let a = 0, b = 1;
    while (true) {
