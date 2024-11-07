@@ -6,3 +6,4 @@ var findLUSlength = function(a, b) {
         return a.length   
     }
 };
+console.log(findLUSlength(a,b))
