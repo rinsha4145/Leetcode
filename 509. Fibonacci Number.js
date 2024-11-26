@@ -1,3 +1,4 @@
+let n = 2
 var fib = function(n) {
     let fib = [0, 1]
     let start = 0
