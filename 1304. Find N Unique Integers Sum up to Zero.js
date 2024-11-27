@@ -1,3 +1,4 @@
+let n = 5
 var sumZero = function(n) {
     let arr = [];
     for (let i = 1; i <= n/2; i++) {
@@ -8,3 +9,4 @@ var sumZero = function(n) {
     } 
     return arr;
 };
+console.log(sumZero(n))
