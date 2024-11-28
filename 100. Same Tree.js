@@ -1,4 +1,3 @@
-
 let p = [1,2,3], q = [1,2,3]
 var isSameTree = function(p, q) {
     if(!p && !q) return true 
