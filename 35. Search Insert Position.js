@@ -1,3 +1,4 @@
+let nums = [1,3,5,6], target = 5
 var searchInsert = function(nums, target) {
     var low = 0;
     var high = nums.length - 1;
@@ -16,3 +17,4 @@ var searchInsert = function(nums, target) {
 
     return low;  
 };
+ console.log(searchInsert(nums,target))
