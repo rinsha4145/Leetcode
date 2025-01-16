@@ -10,3 +10,4 @@ var stringMatching = function(words) {
     }
     return z
 };
+console.log(stringMatching(["mass","as","hero","superhero"]))
