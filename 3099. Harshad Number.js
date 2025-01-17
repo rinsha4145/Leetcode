@@ -5,3 +5,4 @@ var sumOfTheDigitsOfHarshadNumber = function(x) {
     if(x%sum===0) return sum
     return -1
 };
+console.log(sumOfTheDigitsOfHarshadNumber(18))
