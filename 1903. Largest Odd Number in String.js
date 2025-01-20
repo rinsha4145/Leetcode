@@ -5,3 +5,4 @@ var largestOddNumber = function(num) {
         if(item[i] %2 === 1) return num.slice(0,i+1);
     return "";
 };
+console.log(largestOddNumber("52"))
