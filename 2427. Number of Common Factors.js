@@ -5,4 +5,4 @@ var commonFactors = function(a, b) {
    }
    return count;
  };
- console.log(first)
+ console.log(commonFactors(12,6))
