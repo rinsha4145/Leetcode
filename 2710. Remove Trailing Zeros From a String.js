@@ -6,3 +6,4 @@ for (let i = 0; i <num.length-1; i++) {
 }
 return arr.join("")
 };
+console.log(removeTrailingZeros("5287100"))
