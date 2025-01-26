@@ -8,3 +8,4 @@ function isMonotonic(nums: number[]): boolean {
     }
     return increasing || decreasing;
 }
+console.log(isMonotonic([1,2,2,3]))
