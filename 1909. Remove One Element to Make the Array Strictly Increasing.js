@@ -14,3 +14,4 @@ var canBeIncreasing = function(nums) {
 
     return true;
 };
+console.log(canBeIncreasing([1,2,10,5,7]))
