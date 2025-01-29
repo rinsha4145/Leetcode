@@ -7,3 +7,4 @@ var isAcronym = function(words, s) {
    }
    return true
 };
+console.log(isAcronym(["alice","bob","charlie"],"abc"))
